@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2EF41A72A473ADA00F84053 /* CoClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF41A62A473ADA00F84053 /* CoClockApp.swift */; };
+		B2EF41A92A473ADA00F84053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF41A82A473ADA00F84053 /* ContentView.swift */; };
+		B2EF41AB2A473ADB00F84053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EF41AA2A473ADB00F84053 /* Assets.xcassets */; };
+		B2EF41AE2A473ADB00F84053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EF41AD2A473ADB00F84053 /* Preview Assets.xcassets */; };
+		B2EF41B92A473ADB00F84053 /* CoClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF41B82A473ADB00F84053 /* CoClockTests.swift */; };
+		B2EF41C32A473ADB00F84053 /* CoClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF41C22A473ADB00F84053 /* CoClockUITests.swift */; };
+		B2EF41C52A473ADB00F84053 /* CoClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF41C42A473ADB00F84053 /* CoClockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EF41B52A473ADB00F84053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EF419B2A473ADA00F84053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EF41A22A473ADA00F84053;
+			remoteInfo = CoClock;
+		};
+		B2EF41BF2A473ADB00F84053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EF419B2A473ADA00F84053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EF41A22A473ADA00F84053;
+			remoteInfo = CoClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2EF41A32A473ADA00F84053 /* CoClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EF41A62A473ADA00F84053 /* CoClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoClockApp.swift; sourceTree = "<group>"; };
+		B2EF41A82A473ADA00F84053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2EF41AA2A473ADB00F84053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2EF41AD2A473ADB00F84053 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2EF41AF2A473ADB00F84053 /* CoClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoClock.entitlements; sourceTree = "<group>"; };
+		B2EF41B42A473ADB00F84053 /* CoClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EF41B82A473ADB00F84053 /* CoClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoClockTests.swift; sourceTree = "<group>"; };
+		B2EF41BE2A473ADB00F84053 /* CoClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EF41C22A473ADB00F84053 /* CoClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoClockUITests.swift; sourceTree = "<group>"; };
+		B2EF41C42A473ADB00F84053 /* CoClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2EF41D12A47403900F84053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EF41A02A473ADA00F84053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EF41B12A473ADB00F84053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EF41BB2A473ADB00F84053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2EF419A2A473ADA00F84053 = {
+			isa = PBXGroup;
+			children = (
+				B2EF41A52A473ADA00F84053 /* CoClock */,
+				B2EF41B72A473ADB00F84053 /* CoClockTests */,
+				B2EF41C12A473ADB00F84053 /* CoClockUITests */,
+				B2EF41A42A473ADA00F84053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EF41A42A473ADA00F84053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EF41A32A473ADA00F84053 /* CoClock.app */,
+				B2EF41B42A473ADB00F84053 /* CoClockTests.xctest */,
+				B2EF41BE2A473ADB00F84053 /* CoClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EF41A52A473ADA00F84053 /* CoClock */ = {
+			isa = PBXGroup;
+			children = (
+				B2EF41D12A47403900F84053 /* Info.plist */,
+				B2EF41A62A473ADA00F84053 /* CoClockApp.swift */,
+				B2EF41A82A473ADA00F84053 /* ContentView.swift */,
+				B2EF41AA2A473ADB00F84053 /* Assets.xcassets */,
+				B2EF41AF2A473ADB00F84053 /* CoClock.entitlements */,
+				B2EF41AC2A473ADB00F84053 /* Preview Content */,
+			);
+			path = CoClock;
+			sourceTree = "<group>";
+		};
+		B2EF41AC2A473ADB00F84053 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2EF41AD2A473ADB00F84053 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2EF41B72A473ADB00F84053 /* CoClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EF41B82A473ADB00F84053 /* CoClockTests.swift */,
+			);
+			path = CoClockTests;
+			sourceTree = "<group>";
+		};
+		B2EF41C12A473ADB00F84053 /* CoClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EF41C22A473ADB00F84053 /* CoClockUITests.swift */,
+				B2EF41C42A473ADB00F84053 /* CoClockUITestsLaunchTests.swift */,
+			);
+			path = CoClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EF41A22A473ADA00F84053 /* CoClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EF41C82A473ADB00F84053 /* Build configuration list for PBXNativeTarget "CoClock" */;
+			buildPhases = (
+				B2EF419F2A473ADA00F84053 /* Sources */,
+				B2EF41A02A473ADA00F84053 /* Frameworks */,
+				B2EF41A12A473ADA00F84053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoClock;
+			productName = CoClock;
+			productReference = B2EF41A32A473ADA00F84053 /* CoClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2EF41B32A473ADB00F84053 /* CoClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EF41CB2A473ADB00F84053 /* Build configuration list for PBXNativeTarget "CoClockTests" */;
+			buildPhases = (
+				B2EF41B02A473ADB00F84053 /* Sources */,
+				B2EF41B12A473ADB00F84053 /* Frameworks */,
+				B2EF41B22A473ADB00F84053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EF41B62A473ADB00F84053 /* PBXTargetDependency */,
+			);
+			name = CoClockTests;
+			productName = CoClockTests;
+			productReference = B2EF41B42A473ADB00F84053 /* CoClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2EF41BD2A473ADB00F84053 /* CoClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EF41CE2A473ADB00F84053 /* Build configuration list for PBXNativeTarget "CoClockUITests" */;
+			buildPhases = (
+				B2EF41BA2A473ADB00F84053 /* Sources */,
+				B2EF41BB2A473ADB00F84053 /* Frameworks */,
+				B2EF41BC2A473ADB00F84053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EF41C02A473ADB00F84053 /* PBXTargetDependency */,
+			);
+			name = CoClockUITests;
+			productName = CoClockUITests;
+			productReference = B2EF41BE2A473ADB00F84053 /* CoClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EF419B2A473ADA00F84053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B2EF41A22A473ADA00F84053 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B2EF41B32A473ADB00F84053 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B2EF41A22A473ADA00F84053;
+					};
+					B2EF41BD2A473ADB00F84053 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B2EF41A22A473ADA00F84053;
+					};
+				};
+			};
+			buildConfigurationList = B2EF419E2A473ADA00F84053 /* Build configuration list for PBXProject "CoClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2EF419A2A473ADA00F84053;
+			productRefGroup = B2EF41A42A473ADA00F84053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EF41A22A473ADA00F84053 /* CoClock */,
+				B2EF41B32A473ADB00F84053 /* CoClockTests */,
+				B2EF41BD2A473ADB00F84053 /* CoClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EF41A12A473ADA00F84053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EF41AE2A473ADB00F84053 /* Preview Assets.xcassets in Resources */,
+				B2EF41AB2A473ADB00F84053 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EF41B22A473ADB00F84053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EF41BC2A473ADB00F84053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EF419F2A473ADA00F84053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EF41A92A473ADA00F84053 /* ContentView.swift in Sources */,
+				B2EF41A72A473ADA00F84053 /* CoClockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EF41B02A473ADB00F84053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EF41B92A473ADB00F84053 /* CoClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EF41BA2A473ADB00F84053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EF41C32A473ADB00F84053 /* CoClockUITests.swift in Sources */,
+				B2EF41C52A473ADB00F84053 /* CoClockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2EF41B62A473ADB00F84053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EF41A22A473ADA00F84053 /* CoClock */;
+			targetProxy = B2EF41B52A473ADB00F84053 /* PBXContainerItemProxy */;
+		};
+		B2EF41C02A473ADB00F84053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EF41A22A473ADA00F84053 /* CoClock */;
+			targetProxy = B2EF41BF2A473ADB00F84053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2EF41C62A473ADB00F84053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2EF41C72A473ADB00F84053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B2EF41C92A473ADB00F84053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoClock/CoClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoClock/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoClock/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sei.kim.CoClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B2EF41CA2A473ADB00F84053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoClock/CoClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoClock/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoClock/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sei.kim.CoClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B2EF41CC2A473ADB00F84053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sei.kim.CoClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoClock";
+			};
+			name = Debug;
+		};
+		B2EF41CD2A473ADB00F84053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sei.kim.CoClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoClock";
+			};
+			name = Release;
+		};
+		B2EF41CF2A473ADB00F84053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sei.kim.CoClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CoClock;
+			};
+			name = Debug;
+		};
+		B2EF41D02A473ADB00F84053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sei.kim.CoClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CoClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EF419E2A473ADA00F84053 /* Build configuration list for PBXProject "CoClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EF41C62A473ADB00F84053 /* Debug */,
+				B2EF41C72A473ADB00F84053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EF41C82A473ADB00F84053 /* Build configuration list for PBXNativeTarget "CoClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EF41C92A473ADB00F84053 /* Debug */,
+				B2EF41CA2A473ADB00F84053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EF41CB2A473ADB00F84053 /* Build configuration list for PBXNativeTarget "CoClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EF41CC2A473ADB00F84053 /* Debug */,
+				B2EF41CD2A473ADB00F84053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EF41CE2A473ADB00F84053 /* Build configuration list for PBXNativeTarget "CoClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EF41CF2A473ADB00F84053 /* Debug */,
+				B2EF41D02A473ADB00F84053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EF419B2A473ADA00F84053 /* Project object */;
+}
